@@ -1,0 +1,40 @@
+@import 'utils';
+
+.header {
+    background: white;
+    .header-content {
+        height: 5rem;
+        width: 1400px;
+        margin: 0 auto;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        display: flex;
+        align-items: center;
+
+        @include media("<wide") {
+            width: 100%;
+        }
+        @include media("<medium") {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .brand {
+            color: $oc-red-6;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .login {
+            color: $oc-red-6;
+            margin-left: auto;
+        }
+    }
+}
+
+.hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
