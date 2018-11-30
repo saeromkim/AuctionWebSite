@@ -7,6 +7,7 @@ const cx = classNames.bind(styles);
 
 
 const Footer = () => (
+<<<<<<< HEAD
   <footer className={cx('footer')}>
     <div className={cx('items')}>
       <div className={cx('item')}>
@@ -19,6 +20,11 @@ const Footer = () => (
       </div>
     </div>
   </footer>
+=======
+  <div>
+    Footer
+  </div>
+>>>>>>> first commit
 );
 
 

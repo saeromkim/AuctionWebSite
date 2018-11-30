@@ -30,6 +30,10 @@
     "immutable": "^4.0.0-rc.12",
     "include-media": "^1.4.9",
     "jest": "20.0.4",
+<<<<<<< HEAD
+=======
+    "node-sass": "^4.10.0",
+>>>>>>> first commit
     "object-assign": "4.1.1",
     "open-color": "^1.6.3",
     "postcss-flexbugs-fixes": "3.2.0",
@@ -45,9 +49,14 @@
     "redux-actions": "^2.6.4",
     "redux-pender": "^2.0.9",
     "resolve": "1.6.0",
+<<<<<<< HEAD
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-less": "^2.4.1",
     "semantic-ui-react": "^0.83.0",
+=======
+    "sass-loader": "^7.1.0",
+    "style-loader": "0.19.0",
+>>>>>>> first commit
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.6.2",
     "webpack": "3.8.1",
@@ -108,11 +117,14 @@
     "presets": [
       "react-app"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "semantic-ui-sass": "^2.3.1",
     "style-loader": "^0.19.0"
+=======
+>>>>>>> first commit
   }
 }
