@@ -11,7 +11,6 @@ const Header = () => (
       <div className={cx('brand')}>
         <Link to="/">팔러와방</Link>
       </div>
-      
       <div className={cx('login')}>
         로그인
       </div>
