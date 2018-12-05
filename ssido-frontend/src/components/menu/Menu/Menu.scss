@@ -1,9 +1,8 @@
 @import 'utils';
 
-.header {
-    background: white;
-    .header-content {
-        height: 10rem;
+.menu {
+    .category {
+        height: 2rem;
         width: 1400px;
         margin: 0 auto;
         padding-left: 3rem;
@@ -19,21 +18,24 @@
             padding-left: 1rem;
             padding-right: 1rem;
         }
-
-        .brand {
-            color: $oc-red-6;
-            font-size: 2rem;
-            font-weight: 600;
+        .category-item{
+            height: 30rem;
+            width: 1400px;
+            margin: 0 auto;
+            align-items: center;
+            padding: 30px;
         }
 
-        .login {
-            color: $oc-red-6;
-            margin-left: auto;
+        .item {
+            align-items: center;
+            padding: 30px;
+            margin: 30px;
         }
     }
 }
 
 .hr {
-    height: 12px;
+    height: 5px;
+    width: 100%;
     border: 0;
 }
