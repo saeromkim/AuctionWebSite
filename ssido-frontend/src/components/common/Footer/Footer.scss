@@ -1,1 +1,37 @@
+@import 'utils';
 
+.footer {
+    background: #000000;
+    height: 10rem;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+    .items {
+        width: 1400px;
+        margin: 0 auto;
+        padding-left: 30rem;
+        padding-right: 30rem;
+        padding: 10px;
+
+        @include media("<wide") {
+            width: 100%;
+        }
+        @include media("<medium") {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    
+
+        .item {
+            margin-top: 0.5rem;
+            font-weight: 600;
+            font-size: 0.8rem;
+            flex: 1;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}

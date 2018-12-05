@@ -7,9 +7,18 @@ const cx = classNames.bind(styles);
 
 
 const Footer = () => (
-  <div>
-    Footer
-  </div>
+  <footer className={cx('footer')}>
+    <div className={cx('items')}>
+      <div className={cx('item')}>
+        <div>팔러와방</div>
+      </div>
+      <div className={cx('item')}>
+        <div>About Us</div>
+        <div>Contact</div>
+        <div>Terms & Conditions</div>
+      </div>
+    </div>
+  </footer>
 );
 
 

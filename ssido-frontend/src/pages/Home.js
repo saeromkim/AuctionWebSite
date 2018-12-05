@@ -1,12 +1,13 @@
 import React from 'react';
 import PageTemplate from 'components/common/PageTemplate';
-import Menu from 'components/menu/Menu';
+import Event from 'components/Event';
 
 const Home = () => {
     return (
         <div>
-            <PageTemplate/>
-            <Menu/>
+            <PageTemplate>
+                <Event/>
+            </PageTemplate>
         </div>
     );
 };
