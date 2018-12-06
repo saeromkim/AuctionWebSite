@@ -12,15 +12,18 @@ const Header = () => (
       <div className={cx('brand')}>
         <Link to="/">팔러와방</Link>
       </div>
-      <div className="ui search">
-        <div className="ui icon input">
-          <input className="prompt" type="text" placeholder="검색어를 입력하세요"/>
-          <i className="search icon"></i>
+      <div className={cx('search')}>
+       <div className={cx('def')}>
+        대학생 중심 중고 경매 마켓
+       </div>
+        <div class="ui fluid action input">
+          <input type="text" placeholder="검색어를 입력하세요"/>
+          <div class="ui pink button"><i class="ui search icon"></i></div>
         </div>
-        <div className="results"></div>
       </div>
-      <div className={cx('login')}>
-        로그인
+      <div className={cx('icons')}>
+        <i class="ui pink bell icon"></i>
+        <i class="ui pink user icon"></i>
       </div>
     </div>
     <div className={cx('hr')}>

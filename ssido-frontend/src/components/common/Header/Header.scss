@@ -21,14 +21,32 @@
         }
 
         .brand {
-            color: $oc-red-6;
+            display: position;
+            color: #f21172;
             font-size: 2rem;
             font-weight: 600;
+            padding-top: 1.5rem;
         }
 
-        .login {
-            color: $oc-red-6;
-            margin-left: auto;
+        .search {
+            border-radius: 0px;
+            width: 30%;
+            padding: 3rem;
+            flex: 1;
+            flex-direction: column;
+            display: flex;
+
+            .def {
+                font-size: 0.8rem;
+                padding-bottom: 0.5rem;
+                color: #f21172;
+                text-align: center;
+            }
+        }
+
+        .icons {
+            padding-left: 1.5rem;
+            padding-top: 2rem;
         }
     }
 }
