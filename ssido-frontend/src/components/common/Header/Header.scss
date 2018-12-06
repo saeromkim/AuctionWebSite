@@ -3,7 +3,11 @@
 .header {
     background: white;
     .header-content {
+<<<<<<< HEAD
         height: 10rem;
+=======
+        height: 5rem;
+>>>>>>> first commit
         width: 1400px;
         margin: 0 auto;
         padding-left: 3rem;
@@ -21,6 +25,7 @@
         }
 
         .brand {
+<<<<<<< HEAD
             display: position;
             color: #f21172;
             font-size: 2rem;
@@ -47,6 +52,16 @@
         .icons {
             padding-left: 1.5rem;
             padding-top: 2rem;
+=======
+            color: $oc-red-6;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .login {
+            color: $oc-red-6;
+            margin-left: auto;
+>>>>>>> first commit
         }
     }
 }
@@ -54,4 +69,8 @@
 .hr {
     height: 12px;
     border: 0;
+<<<<<<< HEAD
+=======
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+>>>>>>> first commit
 }
