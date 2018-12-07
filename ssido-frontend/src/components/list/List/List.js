@@ -6,7 +6,7 @@ import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 const Item = () => {
-	var data='C:/Users/yeonggi/Desktop/SsidoWebProject-master/ssido-frontend/sample.jpg';
+	// var data='C:/Users/yeonggi/Desktop/SsidoWebProject-master/ssido-frontend/sample.jpg';
 	return(
 		<div className={cx('item')}>
 			<div className={cx('image', {data})}>
