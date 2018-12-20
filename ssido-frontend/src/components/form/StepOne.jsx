@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Button } from 'semantic-ui-react';
+import { Form, Button, Segment } from 'semantic-ui-react';
 
 class StepOne extends Component{
 
@@ -11,6 +11,7 @@ class StepOne extends Component{
     render(){
         const { values } = this.props;
         return(
+            <Segment>
             <Form >
                 <h1 className="ui centered">팔사람 구해요</h1>
                 <Form.Field>
@@ -31,6 +32,7 @@ class StepOne extends Component{
                 </Form.Field>
                 <Button onClick={this.saveAndContinue}>다음</Button>
             </Form>
+            </Segment>
         )
     }
 }

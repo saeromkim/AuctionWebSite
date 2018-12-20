@@ -1,0 +1,29 @@
+{
+    "categories": [
+        {
+            "key":"fashion",
+            "value":"fashion",
+            "text":"패션/잡화"
+        },
+        {
+            "key":"beauty",
+            "value":"beauty",
+            "text":"뷰티"
+        },
+        {
+            "key":"document",
+            "value":"document",
+            "text":"문서/자료"
+        },
+        {
+            "key":"book",
+            "value":"book",
+            "text":"도서"
+        },
+        {
+            "key":"stationery",
+            "value":"stationery",
+            "text":"문구/완구"
+        }
+    ]
+}

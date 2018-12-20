@@ -1,0 +1,29 @@
+{
+    "locations": [
+        {
+            "key":"seoul",
+            "value":"seoul",
+            "text":"서울"
+        },
+        {
+            "key":"busan",
+            "value":"busan",
+            "text":"부산"
+        },
+        {
+            "key":"daegu",
+            "value":"daegu",
+            "text":"대구"
+        },
+        {
+            "key":"gwangju",
+            "value":"gwangju",
+            "text":"광주"
+        },
+        {
+            "key":"jeju",
+            "value":"jeju",
+            "text":"제주"
+        }
+    ]
+}
