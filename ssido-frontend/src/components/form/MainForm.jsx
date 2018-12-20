@@ -54,7 +54,11 @@ class MainForm extends Component {
                     values={values}
                     />
         case 3:
-            return <Success />
+            return <Success 
+                    values={values}/>
+        default :
+            return <Success 
+                    values={values}/>
         }
     }
 }

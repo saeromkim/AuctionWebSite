@@ -48,13 +48,6 @@ class StepTwo extends Component{
                 />
             </Form.Field>
             <Form.Field>
-                <label>희망 거래 유형을 선택해주세요</label>
-                <input placeholder='dealOption'
-                onChange={this.props.handleChange('dealOption')}
-                defaultValue={values.dealOption}
-                />
-            </Form.Field>
-            <Form.Field>
                 <label>희망 거래 위치를 선택해주세요</label>
                 <input placeholder='dealLocation'
                 onChange={this.props.handleChange('dealLocation')}
@@ -69,7 +62,7 @@ class StepTwo extends Component{
                 />
             </Form.Field>
             <Button onClick={this.back}>뒤로가기</Button>
-            <Button onClick={this.saveAndContinue}>완료</Button>
+            <Button className="ui orange button" onClick={this.saveAndContinue}>완료</Button>
         </Form>
         </Segment>
         )

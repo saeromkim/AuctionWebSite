@@ -5,6 +5,12 @@ class StepOne extends Component{
 
     saveAndContinue = (e) => {
         e.preventDefault()
+        // var data = {
+        //     itemName : this.refs.name.getDOMNode().value,
+        //     category : this.refs.password.getDOMNode().value,
+        //   }
+      
+        //   this.props.saveValues(data)
         this.props.nextStep()
     }
 
@@ -30,7 +36,7 @@ class StepOne extends Component{
                     defaultValue={values.category}
                     />
                 </Form.Field>
-                <Button onClick={this.saveAndContinue}>다음</Button>
+                <Button className="ui orange button" onClick={this.saveAndContinue}>다음</Button>
             </Form>
             </Segment>
         )
