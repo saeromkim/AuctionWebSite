@@ -1,6 +1,6 @@
 # SsidoWebProject
 
-**1주차**<br/>
-components > *list > List, ListWrapper* 생성 <br/>
-components > common > PageTemplate > *PageTemplate.js* 변경<br/>
-pages > *Home.js* 변경<br/>
+components > list > *List.scss* 변경 <br/>
+components > *RoomChat* 생성 <br/>
+pages > *Chat.js* 생성<br/>
+*App.js* 변경
