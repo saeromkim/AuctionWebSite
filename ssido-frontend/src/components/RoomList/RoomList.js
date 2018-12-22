@@ -10,7 +10,7 @@ const RoomList = () => (
   <roomlist className={cx('roomlist')}>
     <div className={cx('title')}>실시간 인기 거래방</div>
     <div className={cx('button')}>
-      <Link to="/form">
+      <Link to="/chat">
       <button class="medium ui right floated black basic button">방 만들기</button>
       </Link>
     </div>
