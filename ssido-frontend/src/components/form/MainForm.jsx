@@ -14,7 +14,8 @@ class MainForm extends Component {
         itemStatus: '',
         dealOption: '',
         dealLocation:'',
-        description:''
+        description:'',
+        roomId:null
     }
 
     nextStep = () => {
